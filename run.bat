@@ -1,0 +1,9 @@
+@echo off
+echo 🛡️ Starting Network Intrusion Detection System...
+echo.
+echo 📦 Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo 🚀 Starting application...
+python src/app.py
+pause
